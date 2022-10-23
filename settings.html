@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="settings.css">
+         
+    <!--<title>Login & Registration Form</title>-->
+</head>
+<body>
+    <div class="split right">
+       
+    </div>
+    <div class="split left">     
+            <img src="/images/Dave.jpg" id="photo">
+            <div class="header2">
+                <h2>Dave Suico Villamore</h2>
+                <p>UI/UX Designer</p>
+                <p>davevillamore@gmail.com</p>
+            </div></br>
+
+            <div class="text">
+                <ul class="about">
+                    <li id="match"><span>   4,063</span><br>Matches</li>
+                    <li><span>3,065</span><br>Likes</li>
+                    <li><span>1,013</span><br>Followers</li>
+                </ul>
+                
+            </div><br><br>
+            <div class="p">
+                <p>"I've been creative for more than a decades</p>
+                <p>so being a handsome is not a problem for me"
+                </p>
+            </div>
+            
+    </div>
+          
+    
+
+        
+
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Edit Profile</span></br></br></br>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your name" required>
+                        <i class="uil uil-user icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input list="gender"  placeholder="Gender" required>
+                        <i class="uil uil-users-alt icon"></i>
+                        <datalist id="gender">
+                            <option value="Male">
+                            <option value="Female">
+                            <option value="Others">
+                        </datalist>
+
+                    </div>
+                    <div class="input-field">
+                        <input type="date" placeholder="Birthdate" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Enter your password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                 
+                       
+                        
+                
+                    <div class="input-field button">
+                        <input type="submit" class="button" onclick="openPopup()" value="Update">
+                        <div class="popup" id="popup">
+                            <img class="image" src="Check-Logo.png">
+                            <h3>Thank You</h2>
+                            <p1>Your info has been updated. Thanks!</p1>
+                            <button type="button" onclick="closePopup()">OK</button>
+                        </div>
+                    </div>
+                    </div>
+
+
+                   
+
+                   
+
+
+
+
+
+
+
+                    
+                    
+                </form>          
+            </div>
+
+             
+         
+
+    <script src="settings.js"></script>
+</body>
+</html>
